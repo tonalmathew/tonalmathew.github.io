@@ -1,10 +1,49 @@
 body {
-  font-family: 'Montserrat', sans-serif !important;
-  /* background-color: #212529; */
+  font-family: "Montserrat", sans-serif !important;
 }
 
-.name:hover{
-/* background-color: blueviolet !important; */
-color: brown !important;
+.name:hover {
+  color: brown !important;
 }
 
+.active {
+  font-weight: 500;
+}
+
+.tab:hover,
+.navbar-brand:hover,
+.nav-link:hover,
+.about-me:hover,
+h1:hover {
+  color: #5f5dbd !important;
+}
+
+.contact-icon:hover {
+  color: black !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.18);
+  background-color: #5f5dbd;
+}
+
+.card-body:hover {
+  color: white;
+}
+.card {
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  border: 0;
+}
+
+.view-more:hover {
+  background-color: #198754;
+  border-color: #198754;
+  color: white;
+}
+
+.active {
+  color: #5f5dbd !important;
+  font-weight: 800;
+}
