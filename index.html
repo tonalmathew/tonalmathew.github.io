@@ -20,6 +20,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
     <title>Tonal Mathew</title>
   </head>
@@ -63,7 +64,7 @@
     <!-- navbar: end -->
 
     <!-- home -->
-    <section id="home" style="height: 100vh">
+    <section id="home" style="min-height: 100vh">
       <div class="container">
         <div
           class="d-flex flex-column justify-content-center"
@@ -82,7 +83,7 @@
     <!-- home:end -->
 
     <!-- about -->
-    <section id="about" style="height: 100vh">
+    <section id="about" style="min-height: 100vh">
       <div class="container">
         <h1 class="d-flex justify-content-center pt-5 pb-3">About Me</h1>
         <div class="text-center">
@@ -112,10 +113,10 @@
     <!-- about:end -->
 
     <!-- skills -->
-    <section id="skills" style="height: 100vh">
+    <section id="skills" style="min-height: 100vh">
       <div class="container">
         <h1 class="d-flex justify-content-center pt-5 pb-3">Skills</h1>
-        <div class="progress my-5" style="height: 40px; border-radius: 50px">
+        <div class="progress my-5 rounded-pill" style="height: 40px">
           <div
             class="
               progress-bar progress-bar-striped progress-bar-animated
@@ -134,7 +135,7 @@
           </div>
         </div>
 
-        <div class="progress my-5" style="height: 40px; border-radius: 50px">
+        <div class="progress my-5 rounded-pill" style="height: 40px">
           <div
             class="
               progress-bar
@@ -154,7 +155,7 @@
             CSS 85%
           </div>
         </div>
-        <div class="progress my-5" style="height: 40px; border-radius: 50px">
+        <div class="progress my-5 rounded-pill" style="height: 40px">
           <div
             class="
               progress-bar
@@ -174,7 +175,7 @@
             Javascript 75%
           </div>
         </div>
-        <div class="progress my-5" style="height: 40px; border-radius: 50px">
+        <div class="progress my-5 rounded-pill" style="height: 40px">
           <div
             class="
               progress-bar
@@ -194,7 +195,7 @@
             Vue js 70%
           </div>
         </div>
-        <div class="progress my-5" style="height: 40px; border-radius: 50px">
+        <div class="progress my-5 rounded-pill" style="height: 40px">
           <div
             class="
               progress-bar
@@ -219,36 +220,167 @@
     <!-- skills:end -->
 
     <!-- projects -->
-    <section id="projects" style="height: 100vh;">
+    <section id="projects" style="min-height: 100vh">
       <div class="container">
         <h1 class="d-flex justify-content-center pt-5 mb-5 pb-5">Projects</h1>
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-3">
-            <div class="card">
-
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+            <div class="card text-dark m-2 h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">Treasure Hunt</h5>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Vuejs
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Node js
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Express js
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Mongodb
+                </h6>
+                <p class="card-text">
+                  A web app to play Treasure Hunt. Build using MEVN stack
+                </p>
+                <a href="#" class="btn btn-warning rounded-pill">view more</a>
+              </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-3">
-            <div class="card">
-
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+            <div class="card text-dark m-2 h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">Tele-Bot</h5>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Node js
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Telegram API
+                </h6>
+                <p class="card-text">
+                  A telegram bot which will return your github profile details.
+                  Build using Node js and Telegram API
+                </p>
+                <a href="#" class="btn btn-warning rounded-pill">view more</a>
+              </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-3">
-            <div class="card">
-
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+            <div class="card text-dark m-2 h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">E-Serviour</h5>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  PHP
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  HTML
+                </h6>
+                <p class="card-text">
+                  A web app to that makes placing orders in hotels faster and
+                  easier. Build using PHP and HTML
+                </p>
+                <a href="#" class="btn btn-warning rounded-pill">view more</a>
+              </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 col-lg-3">
-            <div class="card">
-
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
+            <div class="card text-dark m-2 h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">Scheduler</h5>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Vuejs
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Node js
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Express js
+                </h6>
+                <h6 class="card-subtitle mb-2 badge rounded-pill bg-secondary">
+                  Mongodb
+                </h6>
+                <p class="card-text">
+                  A web app to schedule and organize events by selecting dates
+                  from calender
+                </p>
+                <a href="#" class="btn btn-warning rounded-pill">view more</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
-
     </section>
     <!-- projects:end -->
+
+    <!-- contact -->
+    <section id="contact" style="min-height: 100vh">
+      <div class="container">
+        <h1 class="d-flex justify-content-center pt-5 mb-5 pb-5">Contact</h1>
+        <div class="row">
+          <div class="col-11 col-sm-10 mx-auto">
+            <h6 class="fw-bold pb-3">Have any queries?</h6>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Enter your message"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact:end -->
+    <footer class="p-4" style="background-color: #5f5dbd">
+      <div class="container p-3">
+        <h6 class="text-center pb-3">You can reach out to me on,</h6>
+        <div class="icons text-center">
+          <a
+            class="text-decoration-none text-light m-3"
+            href="https://github.com/tonalmathew"
+            ><i data-feather="github"></i
+          ></a>
+          <a
+            class="text-decoration-none text-light m-3"
+            href="https://www.linkedin.com/in/tonal-mathew/"
+            ><i data-feather="linkedin"></i
+          ></a>
+          <a
+            class="text-decoration-none text-light m-3"
+            href="https://twitter.com/mathewtonal"
+            ><i data-feather="twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
@@ -256,5 +388,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
