@@ -1,6 +1,9 @@
 * {
   font-family: "Montserrat", sans-serif !important;
 }
+body{
+  background-color: rgb(0, 0, 0) !important;
+}
 
 .name:hover,
 .tab:hover {
@@ -54,7 +57,7 @@ h1:hover {
 }
 
 .animation {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   overflow: hidden;
   background: linear-gradient(to right, #5f5dbd, #5f5dbd 50%, #fff 50%);
