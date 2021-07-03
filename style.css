@@ -1,8 +1,9 @@
-body {
+
+* {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.name:hover {
+.name:hover, .tab:hover {
   color: brown !important;
 }
 
@@ -10,7 +11,6 @@ body {
   font-weight: 500;
 }
 
-.tab:hover,
 .navbar-brand:hover,
 .nav-link:hover,
 .about-me:hover,
@@ -46,4 +46,9 @@ h1:hover {
 .active {
   color: #5f5dbd !important;
   font-weight: 800;
+}
+
+.tab{
+  font-weight: 800 !important;
+  color: #5f5dbd;
 }
