@@ -77,3 +77,30 @@ h1:hover {
 .animation:hover {
   background-position: 0 100%;
 }
+
+.animation-dark {
+  /* position: relative; */
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, brown, #5f5dbd 50%, #17182F 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.18);
+}
+.animation-dark:hover {
+  background-position: 0 100%;
+}
+
+.container-card{
+  background-color: white !important;
+  padding: 40px;
+  border-radius: 20px;
+  color: black !important;
+
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
