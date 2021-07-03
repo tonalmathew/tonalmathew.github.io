@@ -43,7 +43,10 @@ h1:hover {
   transition: transform 0.2s ease;
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
-  background-color: #5f5dbd;
+  border-radius: 20px;
+  /* background-color: #5f5dbd; */
+  /* background-color: white; */
+  /* color: black !important; */
 }
 
 .view-more:hover {
@@ -99,10 +102,13 @@ h1:hover {
 }
 
 .container-card{
-  background-color: white !important;
+  /* background-color: white !important; */
+
+  background-color: #252770 !important;
   padding: 40px;
   border-radius: 20px;
-  color: black !important;
+  /* color: black !important; */
+  color: white;
 
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
