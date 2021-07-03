@@ -64,7 +64,7 @@ h1:hover {
   /* position: relative; */
   display: inline-block;
   overflow: hidden;
-  background: linear-gradient(to right, #5f5dbd, #5f5dbd 50%, #fff 50%);
+  background: linear-gradient(to right, brown, #5f5dbd 50%, #fff 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
