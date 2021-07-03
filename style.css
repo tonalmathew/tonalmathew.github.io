@@ -1,9 +1,9 @@
-
 * {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.name:hover, .tab:hover {
+.name:hover,
+.tab:hover {
   color: brown !important;
 }
 
@@ -48,7 +48,38 @@ h1:hover {
   font-weight: 800;
 }
 
-.tab{
+.tab {
   font-weight: 800 !important;
   color: #5f5dbd;
+}
+
+.animation {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: #5f5dbd;
+  overflow: hidden;
+}
+
+.animation {
+  /* Same as before */
+  background: linear-gradient(to right, brown, brown 50%, #5f5dbd 50%);
+}
+
+.animation {
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+.animation {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+.animation:hover {
+  background-position: 0 100%;
 }
