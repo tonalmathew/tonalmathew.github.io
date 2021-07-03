@@ -67,6 +67,8 @@ h1:hover {
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 500ms ease;
+
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.18);
 }
 .animation:hover {
   background-position: 0 100%;
