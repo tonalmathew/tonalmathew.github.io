@@ -5,6 +5,10 @@ body{
   background-color: #17182F !important;
 }
 
+.bg-color{
+  background-color: #17182F !important;
+}
+
 .name:hover,
 .tab:hover {
   color: brown !important;
