@@ -9,6 +9,7 @@ body{
   background-color: #17182F !important;
 }
 
+
 .name:hover,
 .tab:hover {
   color: brown !important;
@@ -31,8 +32,8 @@ h1:hover {
 
 .card:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.18);
-  background-color: #5f5dbd;
+  box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.18);
+  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
 }
 
 .card-body:hover {
@@ -40,8 +41,9 @@ h1:hover {
 }
 .card {
   transition: transform 0.2s ease;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
+  background-color: #5f5dbd;
 }
 
 .view-more:hover {
