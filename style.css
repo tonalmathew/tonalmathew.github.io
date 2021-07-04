@@ -39,25 +39,38 @@ h1:hover {
   color: #5f5dbd !important;
 }
 
-.card:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.18);
-  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
-}
-
-.card-body:hover {
-  color: white;
-}
-.card {
+.card{
   transition: transform 0.2s ease;
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
   border-radius: 20px;
+
+  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 1000ms ease;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.18);
+  background-position: 0 100%;
+}
+
+.view-more{
+  background-color: #1b1c38;
+  color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.lang-pill{
+  background-color: #1b1c38 !important;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
 .view-more:hover {
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #17182f;
+  border-color: #17182f;
   color: white;
 }
 
@@ -116,4 +129,9 @@ h1:hover {
 
 .rounded-textarea {
   border-radius: 20px;
+}
+
+.card-footer{
+  background-color: rgba(0, 0, 0, 0);
+  border-top: none;
 }
