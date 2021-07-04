@@ -141,3 +141,9 @@ h1:hover {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
   color: white;
 }
+
+.menu-icon {
+  color: rgba(0, 0, 0, 0) !important;
+  border: none;
+  /* background-color: white !important; */
+}
