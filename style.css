@@ -1,14 +1,13 @@
 * {
   font-family: "Montserrat", sans-serif !important;
 }
-body{
-  background-color: #17182F !important;
+body {
+  background-color: #17182f !important;
 }
 
-.bg-color{
-  background-color: #17182F !important;
+.bg-color {
+  background-color: #17182f !important;
 }
-
 
 .name:hover,
 .tab:hover {
@@ -81,20 +80,33 @@ h1:hover {
   background-position: 0 100%;
 }
 
-.container-card{
-
+.container-card {
   background-color: #1b1c38 !important;
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   color: white;
-
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
-.bg-progress{
-  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);;
+.bg-progress {
+  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 1000ms ease;
 }
 
-.bg-progress-bar{
-  background-color: #17182F;
+.bg-progress:hover {
+  background-position: 0 100%;
+}
+
+.bg-progress-bar {
+  background-color: #17182f;
+}
+
+.shadow-progress {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.rounded-textarea {
+  border-radius: 20px;
 }
