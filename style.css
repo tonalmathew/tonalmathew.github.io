@@ -135,3 +135,9 @@ h1:hover {
   background-color: rgba(0, 0, 0, 0);
   border-top: none;
 }
+
+.btn-send{
+  background-color: #17182f;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  color: white;
+}
