@@ -5,6 +5,16 @@ body {
   background-color: #17182f !important;
 }
 
+footer {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+nav {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
 .bg-color {
   background-color: #17182f !important;
 }
@@ -26,7 +36,7 @@ h1:hover {
 }
 
 .contact-icon:hover {
-  color: black !important;
+  color: #5f5dbd !important;
 }
 
 .card:hover {
@@ -43,9 +53,6 @@ h1:hover {
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
   border-radius: 20px;
-  /* background-color: #5f5dbd; */
-  /* background-color: white; */
-  /* color: black !important; */
 }
 
 .view-more:hover {
