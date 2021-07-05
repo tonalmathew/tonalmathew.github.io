@@ -37,7 +37,7 @@ h1:hover {
   color: #5f5dbd !important;
 }
 
-.card{
+.card {
   transition: transform 0.2s ease;
   box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
@@ -48,19 +48,19 @@ h1:hover {
   transition: background-position 1000ms ease;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.18);
   background-position: 0 100%;
 }
 
-.view-more{
+.view-more {
   background-color: #1b1c38;
   color: white;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
-.lang-pill{
+.lang-pill {
   background-color: #1b1c38 !important;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
@@ -137,12 +137,12 @@ h1:hover {
   border-radius: 20px;
 }
 
-.card-footer{
+.card-footer {
   background-color: rgba(0, 0, 0, 0);
   border-top: none;
 }
 
-.btn-send{
+.btn-send {
   background-color: #17182f;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
   color: white;
@@ -152,4 +152,3 @@ h1:hover {
   color: rgba(0, 0, 0, 0) !important;
   border: none;
 }
-
