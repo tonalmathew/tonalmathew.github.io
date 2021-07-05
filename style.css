@@ -106,6 +106,14 @@ h1:hover {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
+.container-card:hover {
+  background-color: #1b1c38 !important;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 4px 6px 0 #5f5dbd;
+}
+
 .bg-progress {
   background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
   background-size: 200% 100%;
