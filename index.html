@@ -23,8 +23,8 @@
     />
 
     <!-- AOS -->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- feather icon -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -99,16 +99,20 @@
     <section id="home" style="min-height: 100vh">
       <div class="container">
         <div
+          data-aos="fade-up"
           class="d-flex flex-column justify-content-center"
           style="height: 550px"
         >
-          <h1 class="mx-auto fw-light fst-italic animation" data-aos="fade-up">
+          <h1
+            class="mx-auto fw-light fst-italic animation"
+            style="display: inline-block !important"
+          >
             Hello, I'm
             <span class="name" style="color: #5f5dbd; font-weight: 900">
               Tonal Mathew</span
             >.
           </h1>
-          <h2 class="mx-auto fw-light fst-italic animation mt-3" data-aos="fade-up">
+          <h2 class="mx-auto fw-light fst-italic animation mt-3">
             I'm a full-stack web developer
           </h2>
         </div>
@@ -137,10 +141,10 @@
     <!-- about: start -->
     <section id="about" class="p-4" style="min-height: 100vh">
       <div class="container container-card" data-aos="fade-up">
-        <div class="heading text-center">
-          <h1 class="tab pt-5 pb-3 text-uppercase animation" data-aos="fade-right">About Me</h1>
+        <div class="heading text-center" data-aos="fade-right">
+          <h1 class="tab pt-5 pb-3 text-uppercase animation">About Me</h1>
         </div>
-        <div class="text-center" >
+        <div class="text-center">
           <img
             class="mx-auto m-1"
             src="./badge.png"
@@ -168,10 +172,11 @@
     <!-- skills: start -->
     <section id="skills" class="p-4" style="min-height: 100vh">
       <div class="container container-card" data-aos="fade-up">
-        <div class="heading text-center">
-          <h1 class="tab pt-5 pb-3 text-uppercase animation" data-aos="fade-right">Skills</h1>
+        <div class="heading text-center" data-aos="fade-right">
+          <h1 class="tab pt-5 pb-3 text-uppercase animation">Skills</h1>
         </div>
-        <div data-aos="fade-up"
+        <div
+          data-aos="fade-up"
           class="progress bg-progress-bar shadow-progress my-5 rounded-pill"
           style="height: 35px"
         >
@@ -196,7 +201,8 @@
           </div>
         </div>
 
-        <div data-aos="fade-up"
+        <div
+          data-aos="fade-up"
           class="progress bg-progress-bar shadow-progress my-5 rounded-pill"
           style="height: 35px"
         >
@@ -220,11 +226,12 @@
             CSS
           </div>
         </div>
-        <div data-aos="fade-up"
+        <div
+          data-aos="fade-up"
           class="progress bg-progress-bar shadow-progress my-5 rounded-pill"
           style="height: 35px"
         >
-          <div 
+          <div
             class="
               progress-bar
               rounded-pill
@@ -244,7 +251,8 @@
             Javascript
           </div>
         </div>
-        <div data-aos="fade-up"
+        <div
+          data-aos="fade-up"
           class="progress bg-progress-bar shadow-progress my-5 rounded-pill"
           style="height: 35px"
         >
@@ -268,7 +276,8 @@
             Vue js
           </div>
         </div>
-        <div data-aos="fade-up"
+        <div
+          data-aos="fade-up"
           class="progress bg-progress-bar shadow-progress my-5 rounded-pill"
           style="height: 35px"
         >
@@ -299,225 +308,231 @@
     <!-- projects: start -->
     <section id="projects" class="p-4" style="min-height: 100vh">
       <div class="container container-card" data-aos="fade-up">
-        <div class="heading text-center">
-          <h1 class="tab pt-5 mb-5 pb-5 text-uppercase animation" data-aos="fade-right">Projects</h1>
+        <div class="heading text-center" data-aos="fade-right">
+          <h1 class="tab pt-5 mb-5 pb-5 text-uppercase animation">Projects</h1>
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-            <div class="card text-light bg-light m-2 h-100" data-aos="fade-up">
-              <div class="card-body text-center">
-                <h5 class="card-title">Treasure Hunt</h5>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Vuejs
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Node js
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Express js
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Mongodb
-                </h6>
-                <p class="card-text">
-                  A web app to play Treasure Hunt. Build using MEVN stack
-                </p>
-              </div>
-              <div class="card-footer mx-auto pb-4">
-                <a
-                  href="https://treasure-hunt-comp.web.app/"
-                  class="btn rounded-pill view-more"
-                  >view more</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-            <div class="card text-light bg-light m-2 h-100" data-aos="fade-up">
-              <div class="card-body text-center">
-                <h5 class="card-title">Tele-Bot</h5>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Node js
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Telegram API
-                </h6>
-                <p class="card-text">
-                  A telegram bot which will return your github profile details.
-                  Build using Node js and Telegram API
-                </p>
-              </div>
-              <div class="card-footer mx-auto pb-4">
-                <a
-                  href="https://github.com/tonalmathew/tele-bot"
-                  class="btn rounded-pill view-more"
-                  >view more</a
-                >
+            <div data-aos="fade-up" class="h-100">
+              <div class="card text-light bg-light m-2 h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Treasure Hunt</h5>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Vuejs
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Node js
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Express js
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Mongodb
+                  </h6>
+                  <p class="card-text">
+                    A web app to play Treasure Hunt. Build using MEVN stack
+                  </p>
+                </div>
+                <div class="card-footer mx-auto pb-4">
+                  <a
+                    href="https://treasure-hunt-comp.web.app/"
+                    class="btn rounded-pill view-more"
+                    >view more</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-            <div class="card text-light bg-light m-2 h-100" data-aos="fade-up">
-              <div class="card-body text-center">
-                <h5 class="card-title">E-Serviour</h5>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  PHP
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  HTML
-                </h6>
-                <p class="card-text">
-                  A web app to that makes placing orders in hotels faster and
-                  easier. Build using PHP and HTML
-                </p>
-              </div>
-              <div class="card-footer mx-auto pb-4">
-                <a
-                  href="https://github.com/tonalmathew/e-serviour"
-                  class="btn rounded-pill view-more"
-                  >view more</a
-                >
+            <div data-aos="fade-up" class="h-100">
+              <div class="card text-light bg-light m-2 h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Tele-Bot</h5>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Node js
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Telegram API
+                  </h6>
+                  <p class="card-text">
+                    A telegram bot which will return your github profile
+                    details. Build using Node js and Telegram API
+                  </p>
+                </div>
+                <div class="card-footer mx-auto pb-4">
+                  <a
+                    href="https://github.com/tonalmathew/tele-bot"
+                    class="btn rounded-pill view-more"
+                    >view more</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-            <div class="card text-light bg-light m-2 h-100" data-aos="fade-up">
-              <div class="card-body text-center">
-                <h5 class="card-title">Scheduler</h5>
-                <h6
-                  class="
-                    card-subtitleup
-                    up
-                    up
-                    up
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Vuejs
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Node js
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Express js
-                </h6>
-                <h6
-                  class="
-                    card-subtitle
-                    mb-2
-                    badge
-                    rounded-pill
-                    lang-pill
-                    bg-secondary
-                  "
-                >
-                  Mongodb
-                </h6>
-                <p class="card-text">
-                  A web app to schedule and organize events by selecting dates
-                  from calender
-                </p>
+            <div data-aos="fade-up" class="h-100">
+              <div class="card text-light bg-light m-2 h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">E-Serviour</h5>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    PHP
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    HTML
+                  </h6>
+                  <p class="card-text">
+                    A web app to that makes placing orders in hotels faster and
+                    easier. Build using PHP and HTML
+                  </p>
+                </div>
+                <div class="card-footer mx-auto pb-4">
+                  <a
+                    href="https://github.com/tonalmathew/e-serviour"
+                    class="btn rounded-pill view-more"
+                    >view more</a
+                  >
+                </div>
               </div>
-              <div class="card-footer mx-auto pb-4">
-                <a
-                  href="https://github.com/tonalmathew/scheduler"
-                  class="btn rounded-pill view-more"
-                  >view more</a
-                >
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
+            <div data-aos="fade-up" class="h-100">
+              <div class="card text-light bg-light m-2 h-100">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Scheduler</h5>
+                  <h6
+                    class="
+                      card-subtitleup
+                      up up up
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Vuejs
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Node js
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Express js
+                  </h6>
+                  <h6
+                    class="
+                      card-subtitle
+                      mb-2
+                      badge
+                      rounded-pill
+                      lang-pill
+                      bg-secondary
+                    "
+                  >
+                    Mongodb
+                  </h6>
+                  <p class="card-text">
+                    A web app to schedule and organize events by selecting dates
+                    from calender
+                  </p>
+                </div>
+                <div class="card-footer mx-auto pb-4">
+                  <a
+                    href="https://github.com/tonalmathew/scheduler"
+                    class="btn rounded-pill view-more"
+                    >view more</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -529,14 +544,14 @@
     <!-- contact: start -->
     <section id="contact" class="p-4" style="min-height: 100vh">
       <div class="container container-card" data-aos="fade-up">
-        <div class="heading text-center">
-          <h1 class="tab pt-5 mb-5 pb-5 text-uppercase animation" data-aos="fade-right">Contact</h1>
+        <div class="heading text-center" data-aos="fade-right">
+          <h1 class="tab pt-5 mb-5 pb-5 text-uppercase animation">Contact</h1>
         </div>
         <div class="row" data-aos="fade-up">
           <div class="col-11 col-sm-10 mx-auto">
             <h6 class="fw-bold pb-3 animation">Have any queries?</h6>
             <form>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-up">
                 <label for="exampleInputEmail1" class="form-label animation"
                   >Name</label
                 >
@@ -547,7 +562,7 @@
                   placeholder="Enter your name"
                 />
               </div>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-up">
                 <label for="exampleInputEmail1" class="form-label animation"
                   >Email address</label
                 >
@@ -559,7 +574,7 @@
                   placeholder="Enter your email"
                 />
               </div>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-up">
                 <label for="exampleInputEmail1" class="form-label animation"
                   >Message</label
                 >
@@ -570,12 +585,14 @@
                   style="height: 100px"
                 ></textarea>
               </div>
-              <button
-                type="submit"
-                class="btn btn-outline-light rounded-pill btn-send animation"
-              >
-                Submit
-              </button>
+              <div data-aos="fade-up">
+                <button
+                  type="submit"
+                  class="btn btn-outline-light rounded-pill btn-send animation"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
           </div>
         </div>
