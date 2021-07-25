@@ -38,10 +38,9 @@ h1:hover {
 
 .card {
   transition: transform 0.2s ease;
-  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.18);
   border: 0;
   border-radius: 20px;
-  background: linear-gradient(50deg, brown, #5f5dbd 60%, #5f5dbd 50%);
+  background-color: #1b1c38 !important;
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 1000ms ease;
@@ -49,29 +48,10 @@ h1:hover {
 
 .card:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.18);
   background-position: 0 100%;
 }
 
-.view-more {
-  background-color: #1b1c38;
-  color: white;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}
-
-.lang-pill {
-  background-color: #1b1c38 !important;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}
-
-.view-more:hover {
-  background-color: #17182f;
-  border-color: #17182f;
-  color: white;
-}
-
 .active {
-  color: #5f5dbd !important;
   font-weight: 800;
 }
 
@@ -120,10 +100,6 @@ h1:hover {
   background-color: #17182f;
 }
 
-.shadow-progress {
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}
-
 .rounded-textarea {
   border-radius: 20px;
 }
@@ -133,13 +109,13 @@ h1:hover {
   border-top: none;
 }
 
-.btn-send {
-  background-color: #17182f;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-  color: white;
-}
-
 .menu-icon {
   color: rgba(0, 0, 0, 0) !important;
   border: none;
+}
+
+.inner-shadow {
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.41) inset;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.41) inset;
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.41) inset;
 }
