@@ -39,7 +39,7 @@ h1:hover {
 .card {
   transition: transform 0.2s ease;
   border: 0;
-  border-radius: 20px;
+  border-radius: 22px;
   background-color: #1b1c38 !important;
   background-size: 200% 100%;
   background-position: 100%;
@@ -101,7 +101,7 @@ h1:hover {
 }
 
 .rounded-textarea {
-  border-radius: 20px;
+  border-radius: 22px;
 }
 
 .card-footer {
