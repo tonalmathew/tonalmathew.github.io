@@ -1,5 +1,5 @@
 AOS.init();
 
-$(".navbar-toggler").click(function () {
+$(".navbar-toggler-helper").click(function () {
   $("i", this).toggleClass("bi-x");
 });
